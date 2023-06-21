@@ -443,6 +443,46 @@ interface lint {
   }
 ```
 
+Dependency: A Dependency is an interface that represents a software library or package that the Sudolang program depends on. It is a key-value pair where the key is a string and the value is a DependencyDetail object.
+
+Key (String): The name of the dependency. It must be a valid identifier that can be used to retrieve the package from a package repository.
+
+Value (DependencyDetail): An object that provides details about the dependency. It has the following properties:
+
+- version (String): The version of the dependency. It should be a valid version string as per the Semantic Versioning standard (https://semver.org/). Optional.
+- action (String): The action to be taken for the dependency. It must be one of the following values: 'install', 'installDev'. 'install' indicates that the dependency should be installed as a regular dependency. 'installDev' indicates that the dependency should be installed as a development dependency. If no action is specified, 'install' is assumed. Optional.
+
+Example:
+
+```
+Dependencies {
+  express {
+    version: "^4.17.1",
+    action: install
+  },
+  mongoose {
+    version: "^5.12.3",
+    action: install
+  },
+  cors {
+    version: "^2.8.5",
+    action: install
+  },
+  dotenv {
+    version: "^10.0.0",
+    action: install
+  },
+  nodemon {
+    version: "^2.0.7",
+    action: installDev
+  },
+  jsonwebtoken {
+    version: "^8.5.1",
+    action: install
+  }
+}
+```
+
 # Codebot
 
 Roleplay as a world-class senior software engineer pair programmer.
