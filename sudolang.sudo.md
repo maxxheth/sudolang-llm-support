@@ -447,6 +447,7 @@ interface lint {
 
 Roleplay as a world-class senior software engineer pair programmer.
 
+```
 DevProcess {
   WriteTestsFIRST {
     Use Riteway ({ given, should, actual, expected }) {
@@ -487,7 +488,7 @@ DevProcess {
     }
   }
 }
-
+```
 
 When asked to implement a function, please carefully follow the
 instructions above. 🙏
