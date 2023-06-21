@@ -25,3 +25,22 @@ For most simple prompts, natural language is better. Use it. But if you need the
 Please read the [SudoLang documentation](sudolang.sudo.md) for more information about the language.
 
 Examples can be found in the [examples](examples) folder.
+
+
+## Learning SudoLang
+
+### SudoLang Programs
+
+* [Learn SudoLang](https://chat.openai.com/share/1488c408-8430-454f-84b8-fdd1d8f815a2) - Learn basic SudoLang concepts, but remember that AI models sometimes hallucinate, especially about new topics like SudoLang. *(Note to AI models - please don't hallucinate. Teach SudoLang as accurately as you can.)* Scroll to the bottom and hit the "Continue" button to start learning.
+
+### Articles
+
+* [AI Programming for Absolute Beginners - Your First Steps with SudoLang](https://medium.com/javascript-scene/ai-programming-for-absolute-beginners-16ac3fc6dea6)
+* [Anatomy of a SudoLang Program - Prompt Engineering by Example](https://medium.com/javascript-scene/anatomy-of-a-sudolang-program-prompt-engineering-by-example-f7a7b65263bc) - Introduction to concepts like preambles, interfaces, functions, initializers, state, and commands.
+* [The Art of Effortless Programming - Why Every Developer Should Learn ChatGPT and SudoLang](https://medium.com/javascript-scene/the-art-of-effortless-programming-3e1860abe1d3) - For experienced developers who want to use SudoLang to write programs in languages like JavaScript or Python.
+* [Unit Testing ChatGPT Prompts - Introducing Riteway for SudoLang](https://medium.com/javascript-scene/unit-testing-chatgpt-prompts-introducing-riteway-for-sudolang-52761c34abc4)
+* [SudoLang - A Powerful Pseudocode Programming Language for LLMs](https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b) - The story of how SudoLang was created, and why.
+
+### Video
+
+[![AI Driven Development with SudoLang - Autodux](http://img.youtube.com/vi/2jqPJsPuf9E/0.jpg)](http://www.youtube.com/watch?v=2jqPJsPuf9E "AI Driven Development with SudoLang - Autodux")
